@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function toHalfWidth(str) {
     return str
       .replace(/[０-９]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0xFEE0))
-      .replace(/[－ー—―]/g, "-");
+      .replace(/[－—―]/g, "-");
   }
 
   // --- フィールド定義（必須項目だけ列挙）---
