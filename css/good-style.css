@@ -33,6 +33,16 @@ body {
   margin: 0;
 }
 
+.logo-good {
+  font-family: 'Rounded M+ 1c', sans-serif;
+  font-size: 24px;
+  color: #3498db;
+  background-color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #999;
+}
+
 .btn-toggle {
   background: none;
   border: none;
